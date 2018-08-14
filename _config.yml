@@ -45,10 +45,10 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /images/favicon-16x16-y.png
+  medium: /images/favicon-32x32-y.png
+  apple_touch_icon: /images/apple-touch-icon-y.png
+  safari_pinned_tab: /images/ylogo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -66,7 +66,7 @@ footer:
   icon:
     # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
     # `heart` is recommended with animation in red (#ff0000).
-    name: user
+    name: y-combinator
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
@@ -77,13 +77,13 @@ footer:
   # -------------------------------------------------------------
   powered:
     # Hexo link (Powered by Hexo).
-    enable: true
+    enable: false
     # Version info of Hexo after Hexo link (vX.X.X).
     version: true
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
     version: true
   # -------------------------------------------------------------
@@ -118,10 +118,10 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  about: /about/ || user
-  #tags: /tags/ || tags
+  tags: /tags/ || tags
   categories: /categories/ || th
-  archives: /archives/ || archive
+  about: /about/ || user
+  # archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -136,9 +136,9 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Mist
+# scheme: Mist
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 #scheme: Gemini
 
 
@@ -194,7 +194,7 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: /images/avatar.jpg
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
